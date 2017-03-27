@@ -4,7 +4,7 @@
 //
 
 class HelloWorld {
-  hello(string = 'Hello, World!') {
+  hello(string = 'World') {
     return `Hello, ${string}!`
   }
 }

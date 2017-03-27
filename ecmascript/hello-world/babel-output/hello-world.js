@@ -21,7 +21,7 @@ var HelloWorld = (function () {
   _createClass(HelloWorld, [{
     key: 'hello',
     value: function hello() {
-      var string = arguments.length <= 0 || arguments[0] === undefined ? 'Hello, World!' : arguments[0];
+      var string = arguments.length <= 0 || arguments[0] === undefined ? 'World' : arguments[0];
 
       return 'Hello, ' + string + '!';
     }
